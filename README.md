@@ -16,6 +16,16 @@ Simply load the module after loading highlight.js. You'll use the minified versi
 <script type="text/javascript"> hljs.initHighlightingOnLoad(); </script>
 ```
 
+This will find and highlight code inside of `<pre><code>` tags; it tries to detect the language automatically. If automatic detection doesn’t work for you, you can specify the language in the `class` attribute:
+
+```html
+<pre>
+    <code class="qsharp">
+    ...
+    </code>
+</pre>
+```
+
 ### Using directly from the UNPKG CDN
 
 ```html
