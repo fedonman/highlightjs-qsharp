@@ -1,0 +1,30 @@
+{
+  "name": "highlightjs-qsharp",
+  "version": "1.0.0",
+  "description": "highlight.js syntax definition for Microsoft's Q# language",
+  "main": "src/languages/qsharp.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedonman/highlightjs-qsharp.git"
+  },
+  "keywords": [
+    "hljs",
+    "highlight.js",
+    "highlightjs",
+    "qsharp",
+    "q#",
+    "syntax"
+  ],
+  "author": "Vyron Vasileiadis <hi@fedonman.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fedonman/highlightjs-qsharp/issues"
+  },
+  "homepage": "https://github.com/fedonman/highlightjs-qsharp#readme"
+}

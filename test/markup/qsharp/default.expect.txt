@@ -1,0 +1,12 @@
+<span class="hljs-keyword">namespace</span> <span class="hljs-title">Microsoft.Quantum.Samples</span> {
+
+    <span class="hljs-keyword">open</span> Microsoft.Quantum.Canon;
+    <span class="hljs-keyword">open</span> Microsoft.Quantum.Intrinsic
+
+    @<span class="hljs-meta">EntryPoint</span>()
+    <span class="hljs-function"><span class="hljs-keyword">operation</span> <span class="hljs-title">MeasureOneQubit</span>(<span class="hljs-params"></span>) : <span class="hljs-built_in">Result</span></span> {
+        <span class="hljs-keyword">use</span> qubit = <span class="hljs-built_in">Qubit</span>();
+        H(qubit);
+        <span class="hljs-keyword">return</span> MResetZ(qubit);
+    }
+}
