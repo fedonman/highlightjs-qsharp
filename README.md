@@ -1,6 +1,8 @@
-# highlightjs-qsharp
+# Q# syntax support for [highlight.js](https://highlightjs.org/)
 
-highlight.js syntax definition for Microsoft's Q# language
+[![NPM](https://nodei.co/npm/highlightjs-qsharp.png)](https://npmjs.org/package/highlightjs-qsharp)
+
+This repository provides syntax highlighting for Microsoft's Q# language using highlight.js
 
 ## Usage
 
