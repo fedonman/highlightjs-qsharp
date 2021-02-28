@@ -17,23 +17,6 @@ export default function(hljs) {
         'Pauli',
         'Range'
     ];
-    var FUNCTION_MODIFIERS = [
-      'public',
-      'private',
-      'protected',
-      'static',
-      'internal',
-      'protected',
-      'abstract',
-      'async',
-      'extern',
-      'override',
-      'unsafe',
-      'virtual',
-      'new',
-      'sealed',
-      'partial'
-    ];
     var LITERAL_KEYWORDS = [
         'true',
         'false',
@@ -89,9 +72,9 @@ export default function(hljs) {
     var NUMBERS = {
       className: 'number',
       variants: [
-        { begin: '\\b(0b[01\']+)' },
-        { begin: '(-?)\\b([\\d\']+(\\.[\\d\']*)?|\\.[\\d\']+)(L)' },
-        { begin: '(-?)(\\b0[xX][a-fA-F0-9\']+|(\\b[\\d\']+(\\.[\\d\']*)?|\\.[\\d\']+)([eE][-+]?[\\d\']+)?)' }
+        { begin: '(-)?(0b|0o|0x)?([\\d]+)(L)?' },
+        { begin: '(-)?(0b|0o|0x)?([\\d]+)(.[\\d]+)?' },
+        { begin: '(-)?([\\d]+(.[\\d]*)?([eE][-+]?[\\d]+)?)' }
       ],
       relevance: 0
     };
@@ -147,7 +130,7 @@ export default function(hljs) {
   
     return {
       name: 'Q#',
-      aliases: ['qs', 'q#'],
+      aliases: ['q#', 'qs', 'qsharp'],
       keywords: KEYWORDS,
       illegal: /::/,
       contains: [
