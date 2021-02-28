@@ -1,6 +1,6 @@
 {
   "name": "highlightjs-qsharp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "highlight.js syntax definition for Microsoft's Q# language",
   "main": "src/languages/qsharp.js",
   "directories": {
