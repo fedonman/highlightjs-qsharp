@@ -14,7 +14,7 @@ Simply load the module after loading highlight.js. You'll use the minified versi
 
 ```html
 <script type="text/javascript" src="/path/to/highlight.min.js"></script>
-<script type="text/javascript" charset="UTF-8" src="/path/to/highlightjs-qsharp/dist/qsharp.min.js"></script>
+<script type="text/javascript" src="/path/to/highlightjs-qsharp/dist/qsharp.min.js"></script>
 <script type="text/javascript"> hljs.initHighlightingOnLoad(); </script>
 ```
 
